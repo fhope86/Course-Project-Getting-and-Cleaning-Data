@@ -1,0 +1,6 @@
+Variables included:
+subjectID:  participant ID number assigned to each of 30 participants (1-30)).
+activity:  6 activities were measured for each participant: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING;
+...note: activities in the original data set (and "fulldata" dataframe) are labeled "1" through "6"
+variables: 561 variables (V3...V562) are included in original dataset; selected variables related to means and standard deviations were selected 
+for further analysis, and are included in the "fulldata" and "groupdf" datasets with descriptive label names.
