@@ -26,7 +26,7 @@ The code executes the following steps:
 7) Read in features table to get variable (column) names and indexes  
 8) Subset data to mean & std variables  
 9) Rename variable/column names to descriptive  
-10)Create tidydata set with collapsed means for each activity per subject
+10) Create tidydata set with collapsed means for each activity per subject
 
 Available data sets:  
 -fulldata (dataframe) - full dataset which combines training and test data with all variables; orignal variable names;  
