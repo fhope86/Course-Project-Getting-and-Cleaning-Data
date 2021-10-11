@@ -17,7 +17,7 @@ tidyr
   
 The code executes the following steps:
 
-1)Read in train & test subject files; update column label V1 to ""subjectID"  
+1) Read in train & test subject files; update column label V1 to ""subjectID"  
 2) Read in train & test activity files; update column label V1 to "activity"  
 3) Read in train & test data files  
 4) Add 'activity' and 'subjectID' (columns and data) to train & test data files  
@@ -28,6 +28,6 @@ The code executes the following steps:
 9) Rename variable/column names to descriptive  
 10)Create tidydata set with collapsed means for each activity per subject
 
-Available data sets:
-fulldata (dataframe) - full dataset which combines training and test data with all variables; orignal variable names;  
-groupdf	(dataframe) - tidy dataset which includes only variables related to means and standard deviations; updated column names; collapsed means per subject/acivity.
+Available data sets:  
+-fulldata (dataframe) - full dataset which combines training and test data with all variables; orignal variable names;  
+-groupdf	(dataframe) - tidy dataset which includes only variables related to means and standard deviations; updated column names; collapsed means per subject/acivity.
